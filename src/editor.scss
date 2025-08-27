@@ -1,0 +1,65 @@
+/**
+ * Editor styles
+ */
+.wp-block-latest-post-grid-latest-post-grid {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  background: #f9f9f9;
+
+  .latest-post-grid-settings {
+    margin-bottom: 20px;
+    
+    .components-range-control {
+      margin-bottom: 0;
+    }
+  }
+
+  .latest-post-grid {
+    .post-grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .post-grid-item {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      overflow: hidden;
+      font-size: 14px;
+    }
+
+    .post-thumbnail img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .post-content {
+      padding: 1rem;
+    }
+
+    .post-title {
+      margin: 0 0 0.5rem 0;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .post-meta {
+      font-size: 0.75rem;
+      color: #666;
+      margin-bottom: 0.5rem;
+    }
+
+    .post-excerpt {
+      font-size: 0.8rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .read-more-link {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+    }
+  }
+}

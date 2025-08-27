@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "latest-post-grid/latest-post-grid",
+  "version": "0.1.0",
+  "title": "Latest Post Grid",
+  "category": "widgets",
+  "icon": "media-code",
+  "description": "Latest post grid block.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": false,
+    "align": false
+  },
+  "attributes": {
+    "postCount": {
+      "type": "number",
+      "default": 4
+    }
+  },
+  "textdomain": "latest-post-grid",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "script": "file:./frontend.js",
+  "style": "file:./style-index.css"
+}
