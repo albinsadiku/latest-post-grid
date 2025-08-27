@@ -1,4 +1,4 @@
-# Latest Post Grid using GraphQL
+# Latest Post Grid Gutenberg Block with React and GraphQL 
 
 A WordPress Gutenberg block that displays your latest posts in a responsive grid layout.
 
